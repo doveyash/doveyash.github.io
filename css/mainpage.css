@@ -381,14 +381,14 @@ footer{
     list-style-type: none;
     text-align: center;
     font-family: 'lato', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #373737;
   }
 
   .hello{
     font-family: 'Alice', serif;
-    font-size: 30px;
+    font-size: 27.5px;
     margin: 50px 0px 20px 0px;
     color: #373737;
     display: inline-block;
@@ -398,7 +398,7 @@ footer{
   .desc{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
     margin: 10px 0px 30px 0px;
     color: #373737;
     display: inline-block;

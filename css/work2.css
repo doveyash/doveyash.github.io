@@ -307,17 +307,17 @@ i:hover{
 
 @media only screen and (max-width: 914px){
   .work_quote{
-    margin: -150px 100px 100px 100px;
+    margin: -140px 100px 100px 100px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 16px;
     font-style: italic;
     color: #fff;
   }
   .work_quote_name{
-    margin: -70px 0px 100px 0px;
+    margin: -80px 0px 100px 0px;
     font-family: 'Lato', serif;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 300;
     font-style: normal;
     color: #fff;
@@ -327,11 +327,158 @@ i:hover{
     padding: 50px 0px 0px 0px;
     text-align: center;
   }
-
   .work_quote_pic img{
     width: 100%;
   }
+  .index1, .index2{
+    margin-top: -100px;
+    padding: 0px 40px;
+  }
 
+  .index1 figure, .index2 figure{
+    padding: 10px 30px 10px 0px;
+    text-transform: none;
+    float: right;
+  }
 
+  .index1 figure img, .index2 figure img{
+    padding: 0px;
+    margin: 0px;
+  }
 
+  .index1 figcaption, .index2 figcaption{
+    padding: 2.5px 0px 0px 5px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 8px;
+    float: right;
+    text-transform: uppercase;
+    color: #594a41;
+  }
+}
+@media only screen and (max-width: 660px){
+  .work_quote_pic{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+  }
+  .work_quote{
+    margin: -87px 50px 100px 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    font-style: italic;
+    color: #fff;
+  }
+  .work_quote_name{
+    margin: -87px 0px 100px 0px;
+    font-family: 'Lato', serif;
+    font-size: 9px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px){
+  ul{
+    margin: 30px 0px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #373737;
+  }
+
+  .work_desc{
+    margin: 0px 60px 130px 60px;
+    font-size: 15px;
+  }
+
+  .sub_section{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 220px;
+    margin-bottom: 4px;
+  }
+
+  .sub_sectionsub{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    margin: 0px 0px 10px 0px;
+    padding: 60px 0px 0px 0px;
+    color: #373737;
+  }
+
+  .subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+  }
+  .intro_pic{
+    margin: 30px 0px 0px 0px;
+  }
+  .SectionTitle{
+    font-family: 'Alice', serif;
+    font-size: 23px;
+    color: #373737;
+    margin: 100px 0px 20px 0px;
+    text-align: center;
+  }
+  .work_pic{
+    padding: 10px 0px;
+  }
+  .index1, .index2{
+    margin-top: -100px;
+    padding: 0px 18px;
+  }
+
+  .index1 figure, .index2 figure{
+    padding: 20px 22px 10px 0px;
+    text-transform: none;
+    float: right;
+  }
+
+  .index1 figure img, .index2 figure img{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .index1 figcaption, .index2 figcaption{
+    padding: 4px 0px 0px 5px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 7px;
+    float: right;
+    text-transform: uppercase;
+    color: #594a41;
+  }
+
+  .work_graphic{
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  .intro_pic{
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  footer{
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: oblique;
+  }
 }
