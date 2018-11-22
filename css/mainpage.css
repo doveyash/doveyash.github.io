@@ -253,7 +253,7 @@ footer{
     }
 
 
-/* Responsive Design Layouts */
+/* -- Responsive Design Layouts ------------------------*/
 @media only screen and (max-width: 712px){
   ul{
     margin: 30px 0px;
