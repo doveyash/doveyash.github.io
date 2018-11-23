@@ -88,6 +88,16 @@ h1{
   text-align: center;
 }
 
+.objective_pic{
+  margin: 3px 0px 0px 0px;
+  background-image: url("img/1_problem_objective.png");
+  min-height: 400px;
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .work_pic{
   position: relative;
   padding: 20px 0px;
@@ -99,13 +109,31 @@ h1{
 }
 
 .work_graphic{
-  padding: 20px 0px;
+  padding: 0px 0px;
   text-align: center;
 }
 
 .work_graphic img{
 width: 70%;
 }
+
+.work_graphic2{
+  opacity: 0;
+  margin-top: -650px;
+  padding: 0px 0px;
+  text-align: center;
+  transition:0s 10s;
+}
+
+.work_graphic2:hover{
+  opacity: 1;
+  -webkit-transition: all .5s ease;
+}
+
+.work_graphic2 img{
+width: 70%;
+}
+
 .design_process{
   margin-top: -50px;
 }
@@ -154,6 +182,15 @@ width: 70%;
   text-align: center;
 }
 
+.sub_sectionsub2{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #373737;
+  font-style: italic;
+  margin: 45px 0px 40px 0px;
+  text-align: center;
+}
 .bold{
   font-weight: 900;
 }
@@ -162,6 +199,7 @@ width: 70%;
   margin-top: -100px;
   padding: 0px 200px;
 }
+
 
 .index1 figure, .index2 figure{
   padding: 30px 40px 20px 0px;
@@ -185,43 +223,33 @@ width: 70%;
   color: #594a41;
 }
 
-/*
-.parallax{
-  background-image: url("file:///Users/LOVE/Documents/GitHub/doveyash.github.io/img/Smart_Organic/4_quote.jpg");
-
-  min-height: 350px;
-
-  background-attachment: fixed;
+.work_quote_pic{
+  margin: 30px 0px 30px 0px;
+  background-image: url("img/4_quote.jpg");
+  min-height: 300px;
+  background-attachment:fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
-} */
-
-.work_quote_pic{
-  margin: 0px 0px 0px 0px;
-}
-
-.work_quote_pic img{
-  width: 100%;
+  background-size: cover;
 }
 
 .work_quote{
-  margin: -190px 250px 100px 250px;
+  margin: 10px 250px 10px 250px;
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  font-size: 22px;
+  font-size: 18px;
   font-style: italic;
-  color: #fff;
+  color: #373737;
   background-color: none;
 }
 
 .work_quote_name{
-  margin: -70px 0px 100px 0px;
+  margin: 5px 0px 30px 0px;
   font-family: 'Lato', serif;
   font-size: 14px;
   font-weight: 100;
   font-style: normal;
-  color: #fff;
+  color: #373737;
   text-align: center;
 }
 
