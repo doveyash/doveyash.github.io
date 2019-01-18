@@ -1,0 +1,579 @@
+@charset "utf-8";
+div,a,img,figure,body,header,nav,ul,main,p,section,h1{
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+ }
+
+nav{
+  margin-top: 40px;
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #373737;
+}
+
+ul>li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+ul>li>a{
+  text-decoration: none;
+  color: #373737;
+}
+
+ul>li>a:hover{
+  text-decoration: none;
+  color: #E64A19;
+}
+
+footer{
+  clear: both;
+  padding: 40px 0px 30px 0px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: 900;
+}
+
+/*--TITLE----------------------------------*/
+  .maintitle{
+    color: #373737;
+    text-align: center;
+  }
+
+.title{
+    font-family: 'Alice', serif;
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+    padding: 60px 0px 0px 0px;
+    color: #373737;
+  }
+
+  .subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+  }
+
+  .intro_quote{
+    margin: 30px 250px 0px 250px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
+    color: #373737;
+  }
+
+  .intro_quote_name{
+    margin-top: 10px;
+    font-family: 'Lato', serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: #373737;
+    text-align: center;
+  }
+
+  .intro_pic{
+    margin-top: 40px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .intro_pic img{
+    width: 100%;
+  }
+
+/*--Probelm & Objective--------------------------*/
+  .SectionTitle{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    color: #373737;
+    margin: 80px 0px 20px 0px;
+    text-align: center;
+  }
+
+  .problem, .objective{
+    margin: 0px 250px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+    text-align: center;
+  }
+
+  .obj_quote{
+    margin: 15px 300px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    color: #373737;
+    text-align: center;
+  }
+
+  .objective{
+    margin: 0px 250px 50px 250px;
+  }
+
+  .objective_pic{
+    margin: 3px 0px 0px 0px;
+    background-image: url("img/thebay.jpeg");
+    min-height: 400px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/*----Design Opportunity--------------*/
+  .SectionTitle2{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    color: #373737;
+    margin-top:100px;
+    text-align: center;
+  }
+
+  .section_sub{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #373737;
+    font-style: italic;
+    margin: 50px auto 20px auto;
+    width: 80%;
+    text-align: center;
+  }
+
+  .opportunity{
+    margin: 10px auto;
+    width: 65%;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .opportunity1{
+    margin: 10px auto 50px auto;
+    width: 65%;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .opportunity p, .opportunity1 p{
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+    text-align: center;
+  }
+
+  .principles{
+    width: 80%;
+    margin: 180px auto;
+
+  }
+
+  .principle{
+    float: left;
+    width: 25%;
+    margin: -20px auto 150px auto;
+    padding: 0px 0px 50px 0px;
+    text-align: center;
+  }
+
+  .principle img{
+    width: 85%;
+    padding: 0;
+    margin: auto;
+  }
+
+  .p_desc{
+    height: 120px;
+    padding: 0;
+    margin: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #373737;
+  }
+
+  .p_sub{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #373737;
+  }
+
+/*----Design Process--------------*/
+  .divider{
+    float: left;
+    width: 100%;
+    background-color: #888;
+    padding: 10px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .divider_page{
+    clear: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .flow{
+    height: 1736px;
+  }
+
+  .flowmap_hand{
+    padding: 0;
+    float: left;
+    width: 25%;
+    min-height: 1736px;
+    background-image: url("img/flowmap_hand.png");
+    background-attachment:fixed;
+    background-size: 25% 100%!important;
+    background-position: left center!important;
+    background-repeat: no-repeat;
+    margin-top: -50px;
+  }
+
+  .flowmap1{
+    padding: 0;
+    position: relative;
+    float: left;
+    width: 75%;
+    margin: -50px auto 0px auto;
+  }
+
+  .flowmap1 img{
+    width: 99%
+  }
+
+  .proto{
+    clear: both;
+    margin: 50px auto 80px auto;
+    width: 50%;
+  }
+  .proto img{
+    width: 100%;
+  }
+
+  .proto_search{
+    padding: 0;
+    float: left;
+    width: 25%;
+    min-height: 1000px;
+    background-image: url("img/search.png");
+    background-attachment:fixed;
+    background-size: 25% 100%!important;
+    background-position: left center!important;
+    background-repeat: no-repeat;
+  }
+
+  .proto_detail{
+    padding: 0;
+    float: left;
+    width: 25%;
+    min-height: 1000px;
+    background-image: url("img/productdetail.png");
+    background-attachment:fixed;
+    background-size: 25% 100%!important;
+    background-position: left center!important;
+    background-repeat: no-repeat;
+  }
+
+/*-- Go Up -------------------*/
+  .arrow{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px 100px 0px;
+    font-family: 'Lato', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #373737;
+
+  }
+
+  i {
+      border: solid #373737;
+      border-width: 0 2.5px 2.5px 0;
+      display: inline-block;
+      padding: 7px;
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+  }
+
+  .arrow a{
+    text-decoration: none;
+    color: #373737;
+  }
+
+  i:hover{
+    border: solid #E64A19;
+    border-width: 0 3.5px 3.5px 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
+  .arrow a:hover{
+    color: #E64A19;
+  }
+
+/*-- Responsive Design Layouts-------------------------*/
+@media only screen and (max-width: 1080px){
+  .work_quote{
+    margin: -180px 170px 100px 170px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+  }
+  .work_quote_name{
+    margin: -70px 0px 100px 0px;
+    font-family: 'Lato', serif;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+  }
+  .v_line{
+    margin: 40px 0px 0px 0px;
+    border-left: 1.5px solid #373737;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+  }
+  .Number_circle{
+    margin-top: 130px;
+  }
+  .sub_section{
+    margin-top: 200px;
+  }
+  .work_desc, .work_desc_obj{
+    margin: 0px 100px 130px 100px;
+  }
+
+  .work_graphic img{
+  width: 90%;
+  }
+
+  .work_graphic_scenario img{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 914px){
+  .work_quote{
+    margin: -140px 100px 100px 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+  }
+  .work_quote_name{
+    margin: -80px 0px 100px 0px;
+    font-family: 'Lato', serif;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+  }
+  .work_quote_pic{
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+  }
+  .work_quote_pic img{
+    width: 100%;
+  }
+  .index1, .index2{
+    margin-top: -100px;
+    padding: 0px 40px;
+  }
+
+  .index1 figure, .index2 figure{
+    padding: 10px 30px 10px 0px;
+    text-transform: none;
+    float: right;
+  }
+
+  .index1 figure img, .index2 figure img{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .index1 figcaption, .index2 figcaption{
+    padding: 2.5px 0px 0px 5px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 8px;
+    float: right;
+    text-transform: uppercase;
+    color: #594a41;
+  }
+}
+
+
+@media only screen and (max-width: 660px){
+  .parallax {
+      background-attachment: scroll;
+  }
+
+  .work_quote_pic{
+    padding: 30px 0px 0px 0px;
+    text-align: center;
+  }
+  .work_quote{
+    margin: -87px 50px 100px 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    font-style: italic;
+    color: #fff;
+  }
+  .work_quote_name{
+    margin: -87px 0px 100px 0px;
+    font-family: 'Lato', serif;
+    font-size: 9px;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 520px){
+  ul{
+    margin: 30px 0px;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #373737;
+  }
+
+  .work_desc, .work_desc_obj{
+    margin: 0px 60px 130px 60px;
+    font-size: 15px;
+  }
+
+  .sub_section{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 220px;
+    margin-bottom: 4px;
+  }
+
+  .sub_sectionsub{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    margin: 0px 0px 10px 0px;
+    padding: 60px 0px 0px 0px;
+    color: #373737;
+  }
+
+  .subtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+  }
+  .intro_pic{
+    margin: 30px 0px 0px 0px;
+  }
+  .SectionTitle{
+    font-family: 'Alice', serif;
+    font-size: 23px;
+    color: #373737;
+    margin: 100px 0px 20px 0px;
+    text-align: center;
+  }
+  .work_pic{
+    padding: 10px 0px;
+  }
+  .index1, .index2{
+    margin-top: -100px;
+    padding: 0px 18px;
+  }
+
+  .index1 figure, .index2 figure{
+    padding: 20px 22px 10px 0px;
+    text-transform: none;
+    float: right;
+  }
+
+  .index1 figure img, .index2 figure img{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .index1 figcaption, .index2 figcaption{
+    padding: 4px 0px 0px 5px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 7px;
+    float: right;
+    text-transform: uppercase;
+    color: #594a41;
+  }
+
+  .work_graphic{
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  .intro_pic{
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  footer{
+    position: absolute;
+    bottom: auto;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: oblique;
+  }
