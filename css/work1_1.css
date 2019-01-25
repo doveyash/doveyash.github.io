@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 div,a,img,figure,body,header,nav,ul,main,p,section,h1{
   margin: 0px;
   padding: 0px;
@@ -141,6 +141,17 @@ footer{
     background-size: cover;
   }
 
+  .mockup_3d{
+    clear:both;
+    margin: 3px 0px 70px 0px;
+    background-image: url("img/mockup_3d.png");
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 /*----Design Opportunity--------------*/
   .SectionTitle2{
     font-family: 'Alice', serif;
@@ -232,7 +243,7 @@ footer{
     font-weight: 400;
     color: #888;
     text-align: center;
-    margin: 50px 0px;
+    margin: 80px 0px;
   }
 
   .divider1{
@@ -244,6 +255,17 @@ footer{
     color: #888;
     text-align: center;
     margin-top: 50px;
+  }
+
+  .divider2{
+    float: left;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #888;
+    text-align: center;
+    margin: 50px 0px;
   }
 
   .divider_page{
@@ -263,7 +285,7 @@ footer{
     padding: 0;
     float: left;
     width: 25%;
-    min-height: 1736px;
+    min-height: 1638px;
     background-image: url("img/flowmap_hand.png");
     background-attachment:fixed;
     background-size: 25% 100%!important;
@@ -286,7 +308,7 @@ footer{
   .proto{
     clear: both;
     margin: 50px auto 80px auto;
-    width: 50%;
+    width: 90%;
   }
   .proto img{
     width: 100%;
