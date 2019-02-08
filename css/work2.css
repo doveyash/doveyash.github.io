@@ -117,23 +117,6 @@ h1{
 width: 70%;
 }
 
-.work_graphic2{
-  opacity: 0;
-  margin-top: -650px;
-  padding: 0px 0px;
-  text-align: center;
-  transition:0s 10s;
-}
-
-.work_graphic2:hover{
-  opacity: 1;
-  -webkit-transition: all .5s ease;
-}
-
-.work_graphic2 img{
-width: 70%;
-}
-
 .design_process{
   margin-top: -50px;
 }
